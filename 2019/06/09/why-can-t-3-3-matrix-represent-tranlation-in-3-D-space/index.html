@@ -89,14 +89,14 @@
 <meta property="og:site_name" content="Hana-Alice">
 <meta property="og:description" content="why can’t 3*3 matrix represent tranlation in 3-D space?Usually we descibe rotation, scale and translation of a vector by 4*4 matrix, we call it homogeneous space, then project it to 3-D space by being">
 <meta property="og:locale" content="default">
-<meta property="og:image" content="https://hana-alice.github.io/.io//Capture.PNG">
-<meta property="og:image" content="https://hana-alice.github.io/.io//Capture1.png">
-<meta property="og:image" content="https://hana-alice.github.io/.io//rotate.png">
+<meta property="og:image" content="https://hana-alice.github.io/2019/06/09/why-can-t-3-3-matrix-represent-tranlation-in-3-D-space/Capture.PNG">
+<meta property="og:image" content="https://hana-alice.github.io/2019/06/09/why-can-t-3-3-matrix-represent-tranlation-in-3-D-space/Capture1.png">
+<meta property="og:image" content="https://hana-alice.github.io/2019/06/09/why-can-t-3-3-matrix-represent-tranlation-in-3-D-space/rotate.png">
 <meta property="og:updated_time" content="2019-06-09T14:26:59.443Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="why can&#39;t 3*3 matrix represent tranlation in 3-D space?">
 <meta name="twitter:description" content="why can’t 3*3 matrix represent tranlation in 3-D space?Usually we descibe rotation, scale and translation of a vector by 4*4 matrix, we call it homogeneous space, then project it to 3-D space by being">
-<meta name="twitter:image" content="https://hana-alice.github.io/.io//Capture.PNG">
+<meta name="twitter:image" content="https://hana-alice.github.io/2019/06/09/why-can-t-3-3-matrix-represent-tranlation-in-3-D-space/Capture.PNG">
 
 
 
@@ -371,7 +371,7 @@
         <h1 id="why-can’t-3-3-matrix-represent-tranlation-in-3-D-space"><a href="#why-can’t-3-3-matrix-represent-tranlation-in-3-D-space" class="headerlink" title="why can’t 3*3 matrix represent tranlation in 3-D space?"></a>why can’t 3*3 matrix represent tranlation in 3-D space?</h1><p>Usually we descibe rotation, scale and translation of a vector by 4*4 matrix, we call it homogeneous space, then project it to 3-D space by being devided by w. In this page we mainly talking about why should we should we do this.</p>
 <h2 id="Scale"><a href="#Scale" class="headerlink" title="Scale"></a>Scale</h2><hr>
 <p>Imaging there is a vector<br>$\vec x =  \left [\begin{matrix}x_1 \\ x_2\\ x_3 \end{matrix} \right]$,<br>for scaling, we have to multiply each component of the vector by a factor. </p>
-<h3 id="Proportionally-scaling"><a href="#Proportionally-scaling" class="headerlink" title="Proportionally scaling"></a>Proportionally scaling</h3><p>this means we scale up/down along the direction of the origin vector.<br><img src="/.io//Capture.PNG" alt="vector in 3d space"> </p>
+<h3 id="Proportionally-scaling"><a href="#Proportionally-scaling" class="headerlink" title="Proportionally scaling"></a>Proportionally scaling</h3><p>this means we scale up/down along the direction of the origin vector.<br><img src="//hana-alice.github.io/2019/06/09/why-can-t-3-3-matrix-represent-tranlation-in-3-D-space/Capture.PNG" alt="vector in 3d space"> </p>
 <p>In the picture above we can see vector<br>$<br>\vec B =<br>\left [<br>\begin{matrix}<br>    1\\2\\3<br>\end{matrix}<br>\right ]<br>,$ and $<br>\vec C =<br>\left [<br>\begin{matrix}<br>    2\\4\\6<br>\end{matrix}<br>\right ]<br>$. Apparently we can find a matrix which makes this equation have a solution: $M·\vec B =  \vec C$</p>
 <script type="math/tex; mode=display">
 M = 
@@ -382,8 +382,8 @@ M =
 0&0&2
 \end{matrix}
 \right]</script><p>$\begin{matrix}[2&amp;0&amp;0]\end{matrix}$ indicates that we take double $x_1$ from $\vec B$ and none of $x_2$ and $x_3$ to compose $x_1$ of $\vec C$.<br>$\begin{matrix}[0&amp;2&amp;0]\end{matrix}$ indicates that we take double $x_2$ from $\vec B$ and none of $x_1$ and $x_3$ to compose $x_2$ of $\vec C$.<br>$\begin{matrix}[0&amp;0&amp;2]\end{matrix}$ indicates that we take double $x_3$ from $\vec B$ and none of $x_1$ and $x_2$ to compose $x_3$ of $\vec C$.<br>thus we get $\vec C$.</p>
-<h3 id="Disproportionally-scaling"><a href="#Disproportionally-scaling" class="headerlink" title="Disproportionally scaling"></a>Disproportionally scaling</h3><p>this is a little bit different from proportionally scaling, but we can still use a 3*3 matrix to describe this operation.<br><img src="/.io//Capture1.png" alt="vec"><br>similar to proportionally scaling, when we have $\vec M·\vec B = \vec C$, we got<br>$<br>M =<br>\left[<br>\begin{matrix}<br>1&amp;0&amp;0\\<br>0&amp;2&amp;0\\<br>0&amp;0&amp;1<br>\end{matrix}<br>\right]<br>$. </p>
-<h2 id="Rotation"><a href="#Rotation" class="headerlink" title="Rotation"></a>Rotation</h2><h3 id="Rotate-around-the-axis"><a href="#Rotate-around-the-axis" class="headerlink" title="Rotate around the axis"></a>Rotate around the axis</h3><p><img src="/.io//rotate.png" alt="rotate"><br>For example , we rotate the vector $\vec {OP}$ around the Z axis. In the original coordinate $\dot P$ lies at<br>$\left[\begin{matrix}x_a,y_a\end{matrix}\right ]$(we don’t care about Z because Z keeps as it is).we give it a clockwise rotation around Z axis, the it lies at $\left[\begin{matrix}x_b,y_b\end{matrix}\right ]$, pay attention to the picture above , here we rotate $\vec {OP}$ clockwise , in other words , we can keep $\dot P$ where it is and rotate the axis anti-clockwise which is shown in the picture.</p>
+<h3 id="Disproportionally-scaling"><a href="#Disproportionally-scaling" class="headerlink" title="Disproportionally scaling"></a>Disproportionally scaling</h3><p>this is a little bit different from proportionally scaling, but we can still use a 3*3 matrix to describe this operation.<br><img src="//hana-alice.github.io/2019/06/09/why-can-t-3-3-matrix-represent-tranlation-in-3-D-space/Capture1.png" alt="vec"><br>similar to proportionally scaling, when we have $\vec M·\vec B = \vec C$, we got<br>$<br>M =<br>\left[<br>\begin{matrix}<br>1&amp;0&amp;0\\<br>0&amp;2&amp;0\\<br>0&amp;0&amp;1<br>\end{matrix}<br>\right]<br>$. </p>
+<h2 id="Rotation"><a href="#Rotation" class="headerlink" title="Rotation"></a>Rotation</h2><h3 id="Rotate-around-the-axis"><a href="#Rotate-around-the-axis" class="headerlink" title="Rotate around the axis"></a>Rotate around the axis</h3><p><img src="//hana-alice.github.io/2019/06/09/why-can-t-3-3-matrix-represent-tranlation-in-3-D-space/rotate.png" alt="rotate"><br>For example , we rotate the vector $\vec {OP}$ around the Z axis. In the original coordinate $\dot P$ lies at<br>$\left[\begin{matrix}x_a,y_a\end{matrix}\right ]$(we don’t care about Z because Z keeps as it is).we give it a clockwise rotation around Z axis, the it lies at $\left[\begin{matrix}x_b,y_b\end{matrix}\right ]$, pay attention to the picture above , here we rotate $\vec {OP}$ clockwise , in other words , we can keep $\dot P$ where it is and rotate the axis anti-clockwise which is shown in the picture.</p>
 <p>According to the triangle congruence theorems , we got equations below:</p>
 <script type="math/tex; mode=display">
 \left\{
