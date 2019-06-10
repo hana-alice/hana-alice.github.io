@@ -68,7 +68,7 @@
 
 
 
-  <meta name="keywords" content="Hexo, NexT">
+  <meta name="keywords" content="mathematics,linear algebra,">
 
 
 
@@ -81,17 +81,22 @@
 
 
 
-<meta name="description" content="Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub. Quick">
+<meta name="description" content="why can’t 3*3 matrix represent tranlation in 3-D space?Usually we descibe rotation, scale and translation of a vector by 4*4 matrix, we call it homogeneous space, then project it to 3-D space by being">
+<meta name="keywords" content="mathematics,linear algebra">
 <meta property="og:type" content="article">
-<meta property="og:title" content="Hello World">
-<meta property="og:url" content="https://hana-alice.github.io/2019/06/07/hello-world/index.html">
+<meta property="og:title" content="why can&#39;t 3*3 matrix represent tranlation in 3-D space?">
+<meta property="og:url" content="https://hana-alice.github.io/2019/06/09/why-can-t-3-3-matrix-represent-tranlation-in-3-D-space/index.html">
 <meta property="og:site_name" content="Hana-Alice">
-<meta property="og:description" content="Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub. Quick">
+<meta property="og:description" content="why can’t 3*3 matrix represent tranlation in 3-D space?Usually we descibe rotation, scale and translation of a vector by 4*4 matrix, we call it homogeneous space, then project it to 3-D space by being">
 <meta property="og:locale" content="default">
-<meta property="og:updated_time" content="2019-06-07T15:23:26.244Z">
+<meta property="og:image" content="https://hana-alice.github.io/.io//Capture.PNG">
+<meta property="og:image" content="https://hana-alice.github.io/.io//Capture1.png">
+<meta property="og:image" content="https://hana-alice.github.io/.io//rotate.png">
+<meta property="og:updated_time" content="2019-06-09T14:26:59.443Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Hello World">
-<meta name="twitter:description" content="Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub. Quick">
+<meta name="twitter:title" content="why can&#39;t 3*3 matrix represent tranlation in 3-D space?">
+<meta name="twitter:description" content="why can’t 3*3 matrix represent tranlation in 3-D space?Usually we descibe rotation, scale and translation of a vector by 4*4 matrix, we call it homogeneous space, then project it to 3-D space by being">
+<meta name="twitter:image" content="https://hana-alice.github.io/.io//Capture.PNG">
 
 
 
@@ -121,13 +126,13 @@
 
 
 
-  <link rel="canonical" href="https://hana-alice.github.io/2019/06/07/hello-world/">
+  <link rel="canonical" href="https://hana-alice.github.io/2019/06/09/why-can-t-3-3-matrix-represent-tranlation-in-3-D-space/">
 
 
 
 
 
-  <title>Hello World | Hana-Alice</title>
+  <title>why can't 3*3 matrix represent tranlation in 3-D space? | Hana-Alice</title>
   
 
 
@@ -286,7 +291,7 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="https://hana-alice.github.io/2019/06/07/hello-world/">
+    <link itemprop="mainEntityOfPage" href="https://hana-alice.github.io/2019/06/09/why-can-t-3-3-matrix-represent-tranlation-in-3-D-space/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="Levis Young">
@@ -303,7 +308,7 @@
 
         
         
-          <h1 class="post-title" itemprop="name headline">Hello World</h1>
+          <h1 class="post-title" itemprop="name headline">why can't 3*3 matrix represent tranlation in 3-D space?</h1>
         
 
         <div class="post-meta">
@@ -315,8 +320,8 @@
               
                 <span class="post-meta-item-text">Posted on</span>
               
-              <time title="Post created" itemprop="dateCreated datePublished" datetime="2019-06-07T21:39:40+08:00">
-                2019-06-07
+              <time title="Post created" itemprop="dateCreated datePublished" datetime="2019-06-09T21:39:25+08:00">
+                2019-06-09
               </time>
             
 
@@ -334,8 +339,8 @@
                 <span class="post-meta-item-icon">
                   <i class="fa fa-comment-o"></i>
                 </span>
-                <a href="/2019/06/07/hello-world/#comments" itemprop="discussionUrl">
-                  <span class="post-comments-count valine-comment-count" data-xid="/2019/06/07/hello-world/" itemprop="commentCount"></span>
+                <a href="/2019/06/09/why-can-t-3-3-matrix-represent-tranlation-in-3-D-space/#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count valine-comment-count" data-xid="/2019/06/09/why-can-t-3-3-matrix-represent-tranlation-in-3-D-space/" itemprop="commentCount"></span>
                 </a>
               </span>
             
@@ -363,16 +368,154 @@
       
 
       
-        <p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><a id="more"></a>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="noopener">Deployment</a></p>
+        <h1 id="why-can’t-3-3-matrix-represent-tranlation-in-3-D-space"><a href="#why-can’t-3-3-matrix-represent-tranlation-in-3-D-space" class="headerlink" title="why can’t 3*3 matrix represent tranlation in 3-D space?"></a>why can’t 3*3 matrix represent tranlation in 3-D space?</h1><p>Usually we descibe rotation, scale and translation of a vector by 4*4 matrix, we call it homogeneous space, then project it to 3-D space by being devided by w. In this page we mainly talking about why should we should we do this.</p>
+<h2 id="Scale"><a href="#Scale" class="headerlink" title="Scale"></a>Scale</h2><hr>
+<p>Imaging there is a vector<br>$\vec x =  \left [\begin{matrix}x_1 \\ x_2\\ x_3 \end{matrix} \right]$,<br>for scaling, we have to multiply each component of the vector by a factor. </p>
+<h3 id="Proportionally-scaling"><a href="#Proportionally-scaling" class="headerlink" title="Proportionally scaling"></a>Proportionally scaling</h3><p>this means we scale up/down along the direction of the origin vector.<br><img src="/.io//Capture.PNG" alt="vector in 3d space"> </p>
+<p>In the picture above we can see vector<br>$<br>\vec B =<br>\left [<br>\begin{matrix}<br>    1\\2\\3<br>\end{matrix}<br>\right ]<br>,$ and $<br>\vec C =<br>\left [<br>\begin{matrix}<br>    2\\4\\6<br>\end{matrix}<br>\right ]<br>$. Apparently we can find a matrix which makes this equation have a solution: $M·\vec B =  \vec C$</p>
+<script type="math/tex; mode=display">
+M = 
+\left[
+\begin{matrix}
+2&0&0\\
+0&2&0\\
+0&0&2
+\end{matrix}
+\right]</script><p>$\begin{matrix}[2&amp;0&amp;0]\end{matrix}$ indicates that we take double $x_1$ from $\vec B$ and none of $x_2$ and $x_3$ to compose $x_1$ of $\vec C$.<br>$\begin{matrix}[0&amp;2&amp;0]\end{matrix}$ indicates that we take double $x_2$ from $\vec B$ and none of $x_1$ and $x_3$ to compose $x_2$ of $\vec C$.<br>$\begin{matrix}[0&amp;0&amp;2]\end{matrix}$ indicates that we take double $x_3$ from $\vec B$ and none of $x_1$ and $x_2$ to compose $x_3$ of $\vec C$.<br>thus we get $\vec C$.</p>
+<h3 id="Disproportionally-scaling"><a href="#Disproportionally-scaling" class="headerlink" title="Disproportionally scaling"></a>Disproportionally scaling</h3><p>this is a little bit different from proportionally scaling, but we can still use a 3*3 matrix to describe this operation.<br><img src="/.io//Capture1.png" alt="vec"><br>similar to proportionally scaling, when we have $\vec M·\vec B = \vec C$, we got<br>$<br>M =<br>\left[<br>\begin{matrix}<br>1&amp;0&amp;0\\<br>0&amp;2&amp;0\\<br>0&amp;0&amp;1<br>\end{matrix}<br>\right]<br>$. </p>
+<h2 id="Rotation"><a href="#Rotation" class="headerlink" title="Rotation"></a>Rotation</h2><h3 id="Rotate-around-the-axis"><a href="#Rotate-around-the-axis" class="headerlink" title="Rotate around the axis"></a>Rotate around the axis</h3><p><img src="/.io//rotate.png" alt="rotate"><br>For example , we rotate the vector $\vec {OP}$ around the Z axis. In the original coordinate $\dot P$ lies at<br>$\left[\begin{matrix}x_a,y_a\end{matrix}\right ]$(we don’t care about Z because Z keeps as it is).we give it a clockwise rotation around Z axis, the it lies at $\left[\begin{matrix}x_b,y_b\end{matrix}\right ]$, pay attention to the picture above , here we rotate $\vec {OP}$ clockwise , in other words , we can keep $\dot P$ where it is and rotate the axis anti-clockwise which is shown in the picture.</p>
+<p>According to the triangle congruence theorems , we got equations below:</p>
+<script type="math/tex; mode=display">
+\left\{
+\begin{aligned}
+x_b &=& x_a\cdot \cos\theta + y_a \cdot \sin\theta ,\\
+y_b &=& -x_a\cdot \sin\theta + y_a \cdot \cos\theta
+\end{aligned}
+\right.</script><p>we write them in matrix format :</p>
+<script type="math/tex; mode=display">
+\left [
+\begin{matrix}
+x_b\\y_b
+\end{matrix}
+\right] = 
+\left [
+\begin{matrix}
+\cos\theta & \sin\theta \\ -\sin\theta & \cos\theta 
+\end{matrix}
+\right] \cdot
+\left [
+\begin{matrix}
+x_a\\y_a
+\end{matrix}
+\right]</script><p>and we add Z in :</p>
+<script type="math/tex; mode=display">
+\left [
+\begin{matrix}
+x_b\\y_b\\z_b
+\end{matrix}
+\right] = 
+\left [
+\begin{matrix}
+\cos\theta & \sin\theta & 0\\
+-\sin\theta & \cos\theta & 0\\
+0& 0&1
+\end{matrix}
+\right] \cdot
+\left [
+\begin{matrix}
+x_a\\y_a\\z_a
+\end{matrix}
+\right]</script><p>similarlly rotate around X axis :</p>
+<script type="math/tex; mode=display">
+\left [
+\begin{matrix}
+x_b\\y_b\\z_b
+\end{matrix}
+\right] = 
+\left [
+\begin{matrix}
+1& 0&0\\
+0&\cos\theta & -\sin\theta \\
+0&\sin\theta & \cos\theta 
+\end{matrix}
+\right] \cdot
+\left [
+\begin{matrix}
+x_a\\y_a\\z_a
+\end{matrix}
+\right]</script><p>and around Y axis :</p>
+<script type="math/tex; mode=display">
+\left [
+\begin{matrix}
+x_b\\y_b\\z_b
+\end{matrix}
+\right] = 
+\left [
+\begin{matrix}
+\cos\theta &0& \sin\theta \\
+0& 1&0\\
+-\sin\theta &0& \cos\theta 
+\end{matrix}
+\right] \cdot
+\left [
+\begin{matrix}
+x_a\\y_a\\z_a
+\end{matrix}
+\right]</script><p>if we rotate aound a random vector $\vec v =<br>\left[<br>\begin{matrix}<br>u\\v\\w<br>\end{matrix}<br>\right]<br>$ , it’s little bit complicated but we can break it down into a set of rotation around axis , you can have a try if you are interested in it. Finally we got this :</p>
+<script type="math/tex; mode=display">
+\left [
+\begin{matrix}
+x_b\\y_b\\z_b
+\end{matrix}
+\right] = 
+M \cdot
+\left [
+\begin{matrix}
+x_a\\y_a\\z_a
+\end{matrix}
+\right]</script><script type="math/tex; mode=display">
+M = 
+\left [
+\begin{matrix}
+u^2 + (1-u^2)\cdot\cos\theta& u\cdot v\cdot(1-\cos\theta) - w\cdot\sin\theta&u\cdot w\cdot(1-\cos\theta) + v\cdot\sin\theta\\
+u\cdot v\cdot(1-\cos\theta) + w\cdot\sin\theta&v^2+(1-v^2)\cdot\cos\theta&v\cdot w\cdot(1-\cos\theta)-u\cdot \sin\theta\\
+u\cdot w\cdot(1-\cos\theta) + v\cdot\sin\theta& v\cdot w\cdot(1-\cos\theta)+u\cdot \sin\theta& w^2 + (1-w^2)\cdot\cos\theta
+\end{matrix}
+\right]</script><p>see we can handle rotation by 3*3 matrix.</p>
+<h2 id="Translation"><a href="#Translation" class="headerlink" title="Translation"></a>Translation</h2><p>No mater where we tranlate the vector, it still lies in the 3-D space. Now there is a vector $\vec v_1 = \left[\begin{matrix}x_1\\y_1\\z_1\end{matrix}\right]$ , after tranlation it is $\vec v_2 = \left[\begin{matrix}x_2\\y_2\\z_2\end{matrix}\right]$, if the tranlation factor is d, then the equation below is established:</p>
+<script type="math/tex; mode=display">
+\left[\begin{matrix}x_2\\y_2\\z_2\end{matrix}\right] = \left[\begin{matrix}x_1+d\\y_1+d\\z_1+d\end{matrix}\right]</script><p>we simply split the d out :</p>
+<script type="math/tex; mode=display">
+\left[\begin{matrix}x_2\\y_2\\z_2\end{matrix}\right] = \left[\begin{matrix}x_1\\y_1\\z_1\end{matrix}\right] + \left[\begin{matrix}d\\d\\d\end{matrix}\right]</script><script type="math/tex; mode=display">\downarrow</script><script type="math/tex; mode=display">
+\vec v_2 = \vec v_1 + d \tag{3.1}</script><p>If we gonna prove translation can be implemented by 3*3 matrix, we are going to prove $(3.2)$ in other words. Here comes the point, we can’t find a matrix that satisfies a equation of the following form.</p>
+<script type="math/tex; mode=display">
+M\cdot\vec v_1 = \vec v_1 + d \tag {3.2}</script><p>now we are going to prove our conclusion in linear algebra. If we combine with scale and rotation which will be more generetic :</p>
+<script type="math/tex; mode=display">
+M \cdot\vec v_1 = A\cdot\vec v_1 + d \tag {3.3}</script><p>when M = $E$ and A = $E$ $(E=\left[\begin{matrix}1&amp;0&amp;0\\0&amp;1&amp;0\\0&amp;0&amp;1\end{matrix}\right])$ it becomes the equation above$(3.1)$. and we write it in matrix form:</p>
+<script type="math/tex; mode=display">
+\left [
+\begin{matrix}
+M&0
+\end{matrix}
+\right]_{3\times4}
+ \cdot
+ \left [
+\begin{matrix}
+v_1\\1
+\end{matrix}
+\right]_{4\times1} = 
+\left [
+\begin{matrix}
+A&d
+\end{matrix}
+\right]_{3\times4}
+ \cdot
+ \left [
+\begin{matrix}
+v_1\\1
+\end{matrix}
+\right]_{4\times1} \tag{3.4}</script><p>Consider the column rank of matrix :<br>$Rank(M) = 3$ , $Rank(A) = 3$ ,<br>$Rank(\left [\begin{matrix}M&amp;0\end{matrix}\right]) = 3$<br>$Rank(\left [\begin{matrix}A&amp;1\end{matrix}\right]) = 4$.</p>
+<p>see $(3.4)$ can be satisfied only when $d = \left [\begin{matrix}0\\0\\0\end{matrix}\right]$ and $M = A$, otherwise it’s not equal. When $d = \left [\begin{matrix}0\\0\\0\end{matrix}\right]$ it’s a translation that goes through the origin(relatively), no translation in other words : )</p>
 
       
     </div>
@@ -388,6 +531,14 @@
 
     <footer class="post-footer">
       
+        <div class="post-tags">
+          
+            <a href="/tags/mathematics/" rel="tag"># mathematics</a>
+          
+            <a href="/tags/linear-algebra/" rel="tag"># linear algebra</a>
+          
+        </div>
+      
 
       
       
@@ -397,15 +548,15 @@
         <div class="post-nav">
           <div class="post-nav-next post-nav-item">
             
+              <a href="/2019/06/07/hello-world/" rel="next" title="Hello World">
+                <i class="fa fa-chevron-left"></i> Hello World
+              </a>
+            
           </div>
 
           <span class="post-nav-divider"></span>
 
           <div class="post-nav-prev post-nav-item">
-            
-              <a href="/2019/06/09/why-can-t-3-3-matrix-represent-tranlation-in-3-D-space/" rel="prev" title="why can't 3*3 matrix represent tranlation in 3-D space?">
-                why can't 3*3 matrix represent tranlation in 3-D space? <i class="fa fa-chevron-right"></i>
-              </a>
             
           </div>
         </div>
@@ -540,7 +691,7 @@
             
 
             
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#Quick-Start"><span class="nav-number">1.</span> <span class="nav-text">Quick Start</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#Create-a-new-post"><span class="nav-number">1.1.</span> <span class="nav-text">Create a new post</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Run-server"><span class="nav-number">1.2.</span> <span class="nav-text">Run server</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Generate-static-files"><span class="nav-number">1.3.</span> <span class="nav-text">Generate static files</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Deploy-to-remote-sites"><span class="nav-number">1.4.</span> <span class="nav-text">Deploy to remote sites</span></a></li></ol></li></ol></div>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#why-can’t-3-3-matrix-represent-tranlation-in-3-D-space"><span class="nav-number">1.</span> <span class="nav-text">why can’t 3*3 matrix represent tranlation in 3-D space?</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#Scale"><span class="nav-number">1.1.</span> <span class="nav-text">Scale</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#Proportionally-scaling"><span class="nav-number">1.1.1.</span> <span class="nav-text">Proportionally scaling</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Disproportionally-scaling"><span class="nav-number">1.1.2.</span> <span class="nav-text">Disproportionally scaling</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Rotation"><span class="nav-number">1.2.</span> <span class="nav-text">Rotation</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#Rotate-around-the-axis"><span class="nav-number">1.2.1.</span> <span class="nav-text">Rotate around the axis</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Translation"><span class="nav-number">1.3.</span> <span class="nav-text">Translation</span></a></li></ol></li></ol></div>
             
 
           </div>
@@ -1073,6 +1224,26 @@
   
 
   
+  
+    <script type="text/x-mathjax-config">
+      MathJax.Hub.Config({
+        tex2jax: {
+          inlineMath: [ ['$','$'], ["\\(","\\)"]  ],
+          processEscapes: true,
+          skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code']
+        }
+      });
+    </script>
+
+    <script type="text/x-mathjax-config">
+      MathJax.Hub.Queue(function() {
+        var all = MathJax.Hub.getAllJax(), i;
+        for (i=0; i < all.length; i += 1) {
+          all[i].SourceElement().parentNode.className += ' has-jax';
+        }
+      });
+    </script>
+    <script type="text/javascript" src="//cdn.bootcss.com/mathjax/2.7.1/latest.js?config=TeX-AMS-MML_HTMLorMML"></script>
   
 
 
