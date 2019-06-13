@@ -10,28 +10,28 @@ const ap = new APlayer({
         cover: 'http://y.gtimg.cn/music/photo_new/T002R300x300M000001oITZd3g16SO.jpg',
       },
       {
-        name: "夜车",
-        artist: '曾轶可',
-        url: 'http://m10.music.126.net/20190611212944/644c7199236690ee840bc45df6168049/ymusic/5e8e/ba1a/ece7/4572313ab4ee7337ec28d2e0c87a14a0.mp3',
-        cover: 'http://p1.music.126.net/s7Cn8bl21KY7kGiBWMdaFg==/109951163105666561.jpg?param=300x300',
-      },
-      {
         name: "Comptine d'un autre été, l'après-midi",
         artist: 'Yann Tiersen',
-        url: 'http://m10.music.126.net/20190611213127/b18166c9f4aac2c69637eb9161d72bf8/ymusic/5bca/9e2a/6170/373ebc0770ae7f5e2f373278184c5c27.mp3',
+        url: 'http://dl.stream.qqmusic.qq.com/M500002YVQYq44BL2W.mp3?vkey=04D6487D7F81A6DE2D36FD091DD017E7F64EA6F556C5D5F023826BE09DD099183AA948AD580278B48DDBAB52855413A595390BC1228733CF&guid=5150825362&fromtag=1',
         cover: 'http://p1.music.126.net/Btipb4gKCiaD6qU6Xyo-Yw==/3228166139193336.jpg?param=300x300',
       },
       {
         name: "Life Is Like A Boat",
         artist: 'Rie fu',
-        url: 'http://m10.music.126.net/20190611213259/b9c2f68f6cdeb96eba6fc1c7223cf5a6/ymusic/a10c/93c0/6de7/41aeb4316ad36aecb5f8673b296ec713.mp3',
+        url: 'http://dl.stream.qqmusic.qq.com/M500001UlXer3EBtS9.mp3?vkey=50567BD994B566002D65FB47DE7BEF20B6E35DA95FA3C0FABEF2DB196E0DDD078A37419D6F46B237040A1155AA8EA6ED00C07EB68FBF7EFA&guid=5150825362&fromtag=1',
         cover: 'http://p1.music.126.net/S2U-jVMYiJQfXVEaZnpANg==/4420036743668385.jpg?param=300x300',
       },
       {
         name: "ありがとう・・・",
         artist: 'KOKIA',
-        url: 'http://m10.music.126.net/20190611213526/27561aef018c340ce01c51d81b055766/ymusic/7140/3f39/2e2c/1b4f6f62e2ee8613a70a64b59ccd6a57.mp3',
+        url: 'http://dl.stream.qqmusic.qq.com/M500002gcAdb31SCb6.mp3?vkey=AB4B5E532585D2CC3840EB458FA2C9CF91EDFE8EF2E0F031B8343E765C6C1842F5B6D7FDCECE9A5AC0677B44B5532DAF9C1C2D5319A7F462&guid=5150825362&fromtag=1',
         cover: 'http://p1.music.126.net/nL1ZtgV4sNsoQ3_Zx_jGdA==/109951163596895882.jpg?param=300x300',
+      },
+      {
+        name: "彩虹",
+        artist: '乔楚熙',
+        url: 'http://dl.stream.qqmusic.qq.com/M500000neHY33zpmYi.mp3?vkey=DCF36A484F9F97FAD6F790054D9A46CA2212486041A282BAE80E5597C21B461C16C058490019C652301DBD7723BEDEE600BF51C2151D8114&guid=5150825362&fromtag=1',
+        cover: 'http://y.gtimg.cn/music/photo_new/T002R300x300M000002XprJ21oyZsn.jpg',
       },
     ]
 });
